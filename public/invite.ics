@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:GMT+5:30
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20241025T210000
+DTEND;TZID=Asia/Kolkata:20241025T220000
+DTSTAMP:20241025T064901Z
+ORGANIZER;CN=Sheryians Coding School:mailto:liveclass@sheryians.org
+UID:5le39h0tt0vpss5cgtqt9no54o@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=vidyutg00djamwal@gmail.com;X-NUM-GUESTS=0:mailto:vidyutg00djamwal@g
+ mail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/zfz-yacb-pgf
+X-MICROSOFT-CDO-OWNERAPPTID:1214163503
+CREATED:20241025T064857Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/zf
+ z-yacb-pgf\nOr dial: (US) +1 605-620-1385 PIN: 458193329#\nMore phone numbe
+ rs: https://tel.meet/zfz-yacb-pgf?pin=6853541038361&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20241025T064855Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:3JS Google Meet Session Today at 9 PM
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

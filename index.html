@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main w-full ">
+    <nav class="fixed top-0 left-0 flex py-3 items-center justify-between w-full px-20">
+      <img class="h-[4rem] " src="./public/Cyberpunk-2077-Transparent-Background-PNG.png" alt="">
+      <div class="flex gap-10 text-white">
+        <a class="hover:text-blue-600" href="#">Steam</a>
+        <a class="hover:text-blue-600" href="#">Epic Games</a>
+        <a class="hover:text-blue-600" href="#">GOG</a>
+        <a class="hover:text-blue-600" href="#">Xbox</a>
+      </div>
+    </nav>
+    <div class="w-full h-[150vh] overflow-hidden">
+    <img class="w-3/4  absolute top-1/2 mt-10 left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-screen filter saturate-150 contrast-125" src="./public/Cyberpunk-2077-Transparent-Background-PNG.png" alt="" srcset="">
+    <div class="absolute h-[40rem] w-[40rem] z-[-1] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-cyan-300 rounded-full blur-[90px] "></div>
+    <canvas id="canvas"></canvas>
+    </div>
+   <div class="w-full h-screen bg-zinc-800"></div>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
