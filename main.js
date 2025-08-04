@@ -46,7 +46,7 @@ rgbeLoader.load('https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/pond_bridg
 let model = '';
 const loader = new GLTFLoader();
 loader.load(
-  'public/DamagedHelmet.gltf',
+  'DamagedHelmet.gltf',
   function (gltf) {
     model = gltf.scene
     scene.add(model);
